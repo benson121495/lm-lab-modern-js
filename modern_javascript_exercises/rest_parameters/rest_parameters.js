@@ -1,10 +1,16 @@
 // Instructions can be found in rest_parameters.md
 
-function add(a, b) {
+function add(...nums) {
   // Add a loop here
-  return a + b;
+  let total = 0;
+  for (const addNum of nums) {
+    total += addNum;
+  }
+  return total;
+  // return a + b;
 }
+// add(1, 2);
 
-add(1, 2, 3, 4, 5);
+// add(1, 2, 3, 4, 5);
 
-module.exports = add;
+// module.exports = add;
