@@ -22,7 +22,7 @@ let logPersons = logPerson(person);
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
 
 // Your code here
-logPerson = (person) => {
+const arrowVersionOfLogPerson = (person) => {
   console.log("The person is " + person) ;
 }
 // Anonymous Arrow Functions
